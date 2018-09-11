@@ -1,0 +1,8 @@
+/data/nps
+/data/train.txt
+/data/train.arpa
+/data/train.bin
+*.txt
+*.nps
+*.arpa
+*.bin

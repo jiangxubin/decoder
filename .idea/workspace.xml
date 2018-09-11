@@ -1,0 +1,1058 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="kenlm" targetName="ContinuousStart" />
+      <config projectName="kenlm" targetName="probing_hash_table_benchmark" />
+      <config projectName="kenlm" targetName="corpus_count_test" />
+      <config projectName="kenlm" targetName="main" />
+      <config projectName="kenlm" targetName="bit_packing_test" />
+      <config projectName="kenlm" targetName="multi_intersection_test" />
+      <config projectName="kenlm" targetName="kenlm_builder" />
+      <config projectName="kenlm" targetName="ExperimentalCoverage" />
+      <config projectName="kenlm" targetName="ContinuousBuild" />
+      <config projectName="kenlm" targetName="ContinuousCoverage" />
+      <config projectName="kenlm" targetName="ExperimentalTest" />
+      <config projectName="kenlm" targetName="src_lib" />
+      <config projectName="kenlm" targetName="NightlyTest" />
+      <config projectName="kenlm" targetName="kenlm_benchmark" />
+      <config projectName="kenlm" targetName="partial_test" />
+      <config projectName="kenlm" targetName="filter" />
+      <config projectName="kenlm" targetName="NightlyStart" />
+      <config projectName="kenlm" targetName="kenlm_util" />
+      <config projectName="kenlm" targetName="NightlyBuild" />
+      <config projectName="kenlm" targetName="adjust_counts_test" />
+      <config projectName="kenlm" targetName="phrase_table_vocab" />
+      <config projectName="kenlm" targetName="string_stream_test" />
+      <config projectName="kenlm" targetName="ContinuousSubmit" />
+      <config projectName="kenlm" targetName="left_test" />
+      <config projectName="kenlm" targetName="ContinuousConfigure" />
+      <config projectName="kenlm" targetName="read_compressed_test" />
+      <config projectName="kenlm" targetName="Continuous" />
+      <config projectName="kenlm" targetName="ContinuousTest" />
+      <config projectName="kenlm" targetName="NightlyCoverage" />
+      <config projectName="kenlm" targetName="build_binary" />
+      <config projectName="kenlm" targetName="rewindable_stream_test" />
+      <config projectName="kenlm" targetName="ExperimentalUpdate" />
+      <config projectName="kenlm" targetName="kenlm" />
+      <config projectName="kenlm" targetName="ContinuousUpdate" />
+      <config projectName="kenlm" targetName="NightlyUpdate" />
+      <config projectName="kenlm" targetName="tokenize_piece_test" />
+      <config projectName="kenlm" targetName="Experimental" />
+      <config projectName="kenlm" targetName="ExperimentalConfigure" />
+      <config projectName="kenlm" targetName="ExperimentalStart" />
+      <config projectName="kenlm" targetName="lmplz" />
+      <config projectName="kenlm" targetName="NightlyMemCheck" />
+      <config projectName="kenlm" targetName="Nightly" />
+      <config projectName="kenlm" targetName="NightlySubmit" />
+      <config projectName="kenlm" targetName="ExperimentalSubmit" />
+      <config projectName="kenlm" targetName="query" />
+      <config projectName="kenlm" targetName="model_buffer_test" />
+      <config projectName="kenlm" targetName="NightlyConfigure" />
+      <config projectName="kenlm" targetName="model_test" />
+      <config projectName="kenlm" targetName="file_piece_test" />
+      <config projectName="kenlm" targetName="stream_test" />
+      <config projectName="kenlm" targetName="fragment" />
+      <config projectName="kenlm" targetName="ContinuousMemCheck" />
+      <config projectName="kenlm" targetName="sorted_uniform_test" />
+      <config projectName="kenlm" targetName="integer_to_string_test" />
+      <config projectName="kenlm" targetName="ExperimentalBuild" />
+      <config projectName="kenlm" targetName="pcqueue_test" />
+      <config projectName="kenlm" targetName="io_test" />
+      <config projectName="kenlm" targetName="count_ngrams" />
+      <config projectName="kenlm" targetName="joint_sort_test" />
+      <config projectName="kenlm" targetName="kenlm_filter" />
+      <config projectName="kenlm" targetName="sized_iterator_test" />
+      <config projectName="kenlm" targetName="ExperimentalMemCheck" />
+      <config projectName="kenlm" targetName="probing_hash_table_test" />
+      <config projectName="kenlm" targetName="sort_test" />
+      <config projectName="kenlm" targetName="NightlyMemoryCheck" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6cc46ed3-f36b-4272-a316-2073d1ef01cd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decoder-cpp/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/decoder-cpp/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decoder-cpp/include/BeamSearch.h" beforeDir="false" afterPath="$PROJECT_DIR$/decoder-cpp/include/BeamSearch.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decoder-cpp/main_me.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/decoder-cpp/main_me.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decoder-cpp/src/BeamSearch.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/decoder-cpp/src/BeamSearch.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decoder-python/src/PrefixBeamSearch.py" beforeDir="false" afterPath="$PROJECT_DIR$/decoder-python/src/PrefixBeamSearch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decoder-python/src/PrefixBeamSearch_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/decoder-python/src/PrefixBeamSearch_2.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/kenlm$main_single.coverage" NAME="main_single Coverage Results" MODIFIED="1536655722620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decoder-python/test" />
+    <SUITE FILE_PATH="coverage/decoder_cpp$merge_corpus_bp.coverage" NAME="merge_corpus_bp Coverage Results" MODIFIED="1536647900974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decoder-python/src" />
+    <SUITE FILE_PATH="coverage/decoder_cpp$main_beam_beam.coverage" NAME="main_beam_beam Coverage Results" MODIFIED="1536651555705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decoder-python/test" />
+    <SUITE FILE_PATH="coverage/decoder_cpp$main_single.coverage" NAME="main_single Coverage Results" MODIFIED="1536655691703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decoder-python/test" />
+    <SUITE FILE_PATH="coverage/Decoder$main_beam_beam.coverage" NAME="main_beam_beam Coverage Results" MODIFIED="1536023999032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decoder-python/test" />
+    <SUITE FILE_PATH="coverage/decoder_cpp$list_path_4_c__.coverage" NAME="list_path_4_c++ Coverage Results" MODIFIED="1536632867421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decoder-python/src" />
+    <SUITE FILE_PATH="coverage/kenlm$intermediate.coverage" NAME="intermediate Coverage Results" MODIFIED="1536312512400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decoder-python/src" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="755672836">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="53" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="53" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+    </session>
+    <session id="1142244705">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="16" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.5" value="6" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="BUILDING" value="1" />
+          <entry key="COPYING" value="1" />
+          <entry key="Doxyfile" value="1" />
+          <entry key="GIT_REVISION" value="1" />
+          <entry key="LICENSE" value="1" />
+          <entry key="cc" value="1" />
+          <entry key="cmake" value="3" />
+          <entry key="cpp" value="58" />
+          <entry key="gitignore" value="1" />
+          <entry key="h" value="39" />
+          <entry key="hh" value="44" />
+          <entry key="in" value="1" />
+          <entry key="log" value="1" />
+          <entry key="md" value="2" />
+          <entry key="py" value="30" />
+          <entry key="sh" value="1" />
+          <entry key="txt" value="109" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CMakeLists.txt" value="97" />
+          <entry key="Markdown" value="2" />
+          <entry key="ObjectiveC" value="142" />
+          <entry key="PLAIN_TEXT" value="24" />
+          <entry key="Python" value="30" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cpp" value="4934" />
+          <entry key="h" value="854" />
+          <entry key="hh" value="86" />
+          <entry key="py" value="1007" />
+          <entry key="txt" value="2413" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CMakeLists.txt" value="2413" />
+          <entry key="ObjectiveC" value="5874" />
+          <entry key="Python" value="1007" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.cidr.testingFrameworks.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/decoder-python/test/main_single.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/decoder-python/src/PrefixBeamSearch.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2640">
+              <caret line="182" column="81" selection-start-line="182" selection-start-column="81" selection-end-line="182" selection-end-column="81" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>labe_number</find>
+      <find>cout</find>
+      <find>险</find>
+      <find>酵母</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/decoder-cpp/include/EditDistance.h" />
+        <option value="$PROJECT_DIR$/decoder-cpp/src/EditDistance.cpp" />
+        <option value="$PROJECT_DIR$/decoder-cpp/src/BeamEntry.h" />
+        <option value="$PROJECT_DIR$/decoder-cpp/src/BeamEntry.cpp" />
+        <option value="$PROJECT_DIR$/decoder-cpp/src/BeamState.h" />
+        <option value="$PROJECT_DIR$/decoder-cpp/src/BeamState.cpp" />
+        <option value="$PROJECT_DIR$/decoder-cpp/lm/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/decoder-cpp/src/BeamSearch.h" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/decoder-cpp/beamsearch/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/decoder-cpp/test/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/decoder-cpp/include/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/decoder-cpp/test_library/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/decoder-cpp/kenlm/lm/model.hh" />
+        <option value="$PROJECT_DIR$/decoder-cpp/kenlm/lm/bhiksha.hh" />
+        <option value="$PROJECT_DIR$/decoder-cpp/kenlm/lm/trie.hh" />
+        <option value="$PROJECT_DIR$/decoder-cpp/kenlm/lm/binary_format.hh" />
+        <option value="$PROJECT_DIR$/decoder-cpp/kenlm/lm/config.hh" />
+        <option value="$PROJECT_DIR$/decoder-cpp/kenlm/lm/lm_exception.hh" />
+        <option value="$PROJECT_DIR$/decoder-cpp/kenlm/util/exception.hh" />
+        <option value="$PROJECT_DIR$/decoder-cpp/kenlm/util/string_stream.hh" />
+        <option value="$PROJECT_DIR$/decoder-cpp/kenlm/util/fake_ostream.hh" />
+        <option value="$PROJECT_DIR$/decoder-cpp/kenlm/util/float_to_string.hh" />
+        <option value="$PROJECT_DIR$/decoder-cpp/kenlm/util/string_piece.hh" />
+        <option value="$PROJECT_DIR$/decoder-cpp/kenlm/lm/read_arpa.hh" />
+        <option value="$PROJECT_DIR$/decoder-cpp/kenlm/lm/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/decoder-cpp/kenlm/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/decoder-cpp/kenlm/util/file.hh" />
+        <option value="$PROJECT_DIR$/decoder-cpp/kenlm/util/scoped.hh" />
+        <option value="$PROJECT_DIR$/decoder-cpp/kenlm/util/file_piece.hh" />
+        <option value="$PROJECT_DIR$/decoder-cpp/kenlm/util/read_compressed.hh" />
+        <option value="$PROJECT_DIR$/decoder-cpp/kenlm/util/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/decoder-cpp/kenlm/util/file_stream.hh" />
+        <option value="$PROJECT_DIR$/decoder-cpp/kenlm/lm/vocab.hh" />
+        <option value="$PROJECT_DIR$/decoder-cpp/util/have.hh" />
+        <option value="$PROJECT_DIR$/decoder-cpp/test/main.cpp" />
+        <option value="$PROJECT_DIR$/decoder-cpp/main.cpp" />
+        <option value="$PROJECT_DIR$/decoder-python/src/intermediate.py" />
+        <option value="$PROJECT_DIR$/decoder-cpp/src/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/decoder-python/src/list_path_4_c++.py" />
+        <option value="$PROJECT_DIR$/decoder-cpp/include/Intermediate.h" />
+        <option value="$PROJECT_DIR$/decoder-cpp/src/Intermediate.cpp" />
+        <option value="$PROJECT_DIR$/decoder-python/src/merge_corpus.py" />
+        <option value="$PROJECT_DIR$/decoder-python/src/merge_corpus_bp.py" />
+        <option value="$PROJECT_DIR$/decoder-cpp/main_me.cpp" />
+        <option value="$PROJECT_DIR$/decoder-cpp/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/decoder-cpp/main_single.cpp" />
+        <option value="$PROJECT_DIR$/decoder-cpp/src/BeamSearch.cpp" />
+        <option value="$PROJECT_DIR$/decoder-python/src/PrefixBeamSearch.py" />
+        <option value="$PROJECT_DIR$/decoder-python/test/main_single.py" />
+        <option value="$PROJECT_DIR$/decoder-cpp/include/BeamSearch.h" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="229" />
+    <option name="y" value="133" />
+    <option name="width" value="1486" />
+    <option name="height" value="947" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="kenlm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="decoder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kenlm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="decoder" type="462c0819:PsiDirectoryNode" />
+              <item name="decoder-python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kenlm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="decoder" type="462c0819:PsiDirectoryNode" />
+              <item name="decoder-python" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/decoder-cpp/test" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="Console" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/decoder-python/test" />
+      <recent name="$PROJECT_DIR$/decoder-cpp" />
+      <recent name="$PROJECT_DIR$/decoder-python/src" />
+      <recent name="$PROJECT_DIR$/decoder-cpp/data" />
+      <recent name="$PROJECT_DIR$/decoder-cpp/kenlm/lm" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/decoder-cpp" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/decoder-cpp/include" />
+      <recent name="$PROJECT_DIR$/decoder-cpp/src" />
+      <recent name="$PROJECT_DIR$/decoder-cpp/test" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.main_single">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousBuild" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="ContinuousBuild" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="ContinuousBuild">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousConfigure" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="ContinuousConfigure" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="ContinuousConfigure">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousCoverage" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="ContinuousCoverage" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="ContinuousCoverage">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousMemCheck" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="ContinuousMemCheck" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="ContinuousMemCheck">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousStart" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="ContinuousStart" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="ContinuousStart">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousSubmit" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="ContinuousSubmit" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="ContinuousSubmit">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousTest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="ContinuousTest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="ContinuousTest">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousUpdate" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="ContinuousUpdate" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="ContinuousUpdate">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Continuous" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="Continuous" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExperimentalBuild" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="ExperimentalBuild" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="ExperimentalBuild">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExperimentalConfigure" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="ExperimentalConfigure" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="ExperimentalConfigure">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExperimentalCoverage" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="ExperimentalCoverage" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="ExperimentalCoverage">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExperimentalMemCheck" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="ExperimentalMemCheck" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="ExperimentalMemCheck">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExperimentalStart" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="ExperimentalStart" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="ExperimentalStart">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExperimentalSubmit" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="ExperimentalSubmit" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="ExperimentalSubmit">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExperimentalTest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="ExperimentalTest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="ExperimentalTest">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExperimentalUpdate" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="ExperimentalUpdate" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="ExperimentalUpdate">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Experimental" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="Experimental" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlyBuild" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="NightlyBuild" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="NightlyBuild">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlyConfigure" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="NightlyConfigure" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="NightlyConfigure">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlyCoverage" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="NightlyCoverage" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="NightlyCoverage">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlyMemCheck" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="NightlyMemCheck" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="NightlyMemCheck">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlyMemoryCheck" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="NightlyMemoryCheck" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="NightlyMemoryCheck">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlyStart" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="NightlyStart" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="NightlyStart">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlySubmit" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="NightlySubmit" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="NightlySubmit">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlyTest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="NightlyTest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="NightlyTest">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlyUpdate" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="NightlyUpdate" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="NightlyUpdate">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Nightly" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="Nightly" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="adjust_counts_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="adjust_counts_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="adjust_counts_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bit_packing_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="bit_packing_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="bit_packing_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="build_binary" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="build_binary" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="build_binary">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="corpus_count_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="corpus_count_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="corpus_count_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="count_ngrams" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="count_ngrams" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="count_ngrams">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="file_piece_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="file_piece_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="file_piece_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="filter" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="filter" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="filter">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fragment" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="fragment" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="fragment">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="integer_to_string_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="integer_to_string_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="integer_to_string_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="io_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="io_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="io_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="joint_sort_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="joint_sort_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="joint_sort_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="kenlm" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="kenlm" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="kenlm_benchmark" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="kenlm_benchmark" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="kenlm_benchmark">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="kenlm_builder" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="kenlm_builder" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="kenlm_filter" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="kenlm_filter" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="kenlm_util" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="kenlm_util" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="left_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="left_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="left_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lmplz" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="lmplz" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="lmplz">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="main">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main_single" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/decoder-cpp/test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="Continuous" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="main">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="model_buffer_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="model_buffer_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="model_buffer_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="model_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="model_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="model_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="multi_intersection_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="multi_intersection_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="multi_intersection_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="partial_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="partial_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="partial_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pcqueue_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="pcqueue_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="pcqueue_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="phrase_table_vocab" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="phrase_table_vocab" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="phrase_table_vocab">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="probing_hash_table_benchmark" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="probing_hash_table_benchmark" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="probing_hash_table_benchmark">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="probing_hash_table_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="probing_hash_table_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="probing_hash_table_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="query" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="query" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="query">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="read_compressed_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="read_compressed_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="read_compressed_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rewindable_stream_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="rewindable_stream_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="rewindable_stream_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sized_iterator_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="sized_iterator_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="sized_iterator_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sort_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="sort_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="sort_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sorted_uniform_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="sorted_uniform_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="sorted_uniform_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="src_lib" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="src_lib" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="stream_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="stream_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="stream_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="string_stream_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="string_stream_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="string_stream_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tokenize_piece_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kenlm" TARGET_NAME="tokenize_piece_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kenlm" RUN_TARGET_NAME="tokenize_piece_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main_single" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Decoder" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/decoder-python/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/decoder-python/test/main_single.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.main_single" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main_single" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6cc46ed3-f36b-4272-a316-2073d1ef01cd" name="Default Changelist" comment="" />
+      <created>1535969983346</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1535969983346</updated>
+      <workItem from="1536111493354" duration="15470000" />
+      <workItem from="1536136884723" duration="4753000" />
+      <workItem from="1536283572634" duration="8415000" />
+      <workItem from="1536298774317" duration="11815000" />
+      <workItem from="1536546919501" duration="8195000" />
+      <workItem from="1536560669744" duration="16724000" />
+      <workItem from="1536650365037" duration="5051000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="75678000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="229" y="133" width="1486" height="947" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17638889" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3255814" />
+      <window_info anchor="bottom" id="Run" order="2" weight="1.0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.66952264" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32925338" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="11" weight="0.3977968" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.36093944" />
+      <window_info anchor="bottom" id="CMake" order="14" visible="true" weight="0.23500612" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22959523" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3264865" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23149395" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="11" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.36093944" />
+      <window_info anchor="bottom" id="CMake" order="14" visible="true" weight="0.34761322" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/decoder-python/test/main_single.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/kenlm/util/fake_ostream.hh" />
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/kenlm/util/float_to_string.hh" />
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/kenlm/util/string_piece.hh" />
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/kenlm/lm/read_arpa.hh" />
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/kenlm/lm/config.hh" />
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/kenlm/lm/binary_format.hh" />
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/kenlm/lm/CMakeLists.txt" />
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/kenlm/util/file.hh" />
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/kenlm/util/scoped.hh" />
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/kenlm/util/file_piece.hh" />
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/kenlm/util/read_compressed.hh" />
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/kenlm/util/lm/filter/vocab.hh" />
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/kenlm/lm/lm/filter/vocab.hh" />
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/kenlm/lm/vocab.hh" />
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/kenlm/lm/util/stream/io.hh" />
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/kenlm/util/file_stream.hh" />
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/kenlm/CMakeLists.txt" />
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/kenlm/util/CMakeLists.txt" />
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/kenlm/lm/kenlm/lm/common/ngram.hh" />
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/kenlm/lm/common/ngram.hh" />
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/kenlm/lm/bhiksha.hh" />
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/cmake/modules/FindEigen3.cmake">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/util/have.hh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/lm/virtual_interface.hh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="133" column="36" selection-start-line="133" selection-start-column="36" selection-end-line="133" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/lm/model.hh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="144" column="21" selection-start-line="144" selection-start-column="21" selection-end-line="144" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/data/list.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/lm/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-540" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/data/38.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder-python/src/list_path_4_c++.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder-python/src/intermediate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="21" selection-start-line="10" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/data/data_path.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/data/ocr_char_set.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="3060" column="6" selection-start-line="3060" selection-start-column="5" selection-end-line="3060" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/include/Intermediate.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/src/Intermediate.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder-python/data/SinaWeibo_single.txt" />
+    <entry file="file://$PROJECT_DIR$/decoder-python/data/char_train.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder-python/src/characterize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder-python/src/merge_corpus.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder-python/src/merge_corpus_bp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/main_me.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/src/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="86" column="29" selection-start-line="86" selection-start-column="29" selection-end-line="86" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder-python/src/PrefixBeamSearch_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="114" selection-start-line="114" selection-end-line="115" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder-python/test/main_beam_beam.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder-python/test/main_alpha.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/main_single.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder-python/src/PrefixBeamSearch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2640">
+          <caret line="182" column="81" selection-start-line="182" selection-start-column="81" selection-end-line="182" selection-end-column="81" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder-python/test/main_single.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/include/BeamSearch.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/src/BeamSearch.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3021">
+          <caret line="205" column="38" selection-start-line="205" selection-start-column="38" selection-end-line="205" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

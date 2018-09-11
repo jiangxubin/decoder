@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsrc_lib.a  CMakeFiles/src_lib.dir/BeamSearch.cpp.o CMakeFiles/src_lib.dir/EditDistance.cpp.o CMakeFiles/src_lib.dir/Intermediate.cpp.o
+/usr/bin/ranlib libsrc_lib.a

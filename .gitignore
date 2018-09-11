@@ -1,0 +1,9 @@
+*.arpa
+/decoder-cpp/data/nps/*.txt
+/decoder-python/data/*.txt
+/decoder-python/data/nps/*.nps
+
+*.nps
+/decoder-cpp/build
+/decoder-cpp/cmake-build-debug
+
