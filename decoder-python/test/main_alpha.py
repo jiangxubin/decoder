@@ -1,7 +1,9 @@
 import numpy as np
-import os
-from src import PrefixBeamSearch
-from Editdistance import edit_distance
+import os, sys
+src_path = os.path.abspath(os.path.join('..'))
+sys.path.append(src_path)
+from src.PrefixBeamSearch import CtcDecoder
+from src.Editdistance import edit_distance
 
 
 def is_english(data:str)->bool:
@@ -25,7 +27,7 @@ if __name__ == "__main__":
                 # print(index)
                 # print(ground_truth)
 
-    decoder_lm = PrefixBeamSearch.CtcDecoder()
+    decoder_lm = CtcDecoder()
     good_f = open("../data/good_case.txt", "w")
     bad_f = open("../data/bad_case.txt", "w")
     for index in consult_dict.keys():

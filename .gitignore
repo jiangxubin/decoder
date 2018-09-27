@@ -1,9 +1,12 @@
 *.arpa
 /decoder-cpp/data/nps/*.txt
 /decoder-python/data/*.txt
-/decoder-python/data/nps/*.nps
-
-*.nps
+/decoder-python/data/nps/*.npy
+/decoder-python/data/e2e_error/
+*.jpg
+*.bin
+*.npy
 /decoder-cpp/build
 /decoder-cpp/cmake-build-debug
+
 

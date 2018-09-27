@@ -1,11 +1,13 @@
 import numpy as np
-from src import PrefixBeamSearch
-import os
-from Editdistance import edit_distance
+import os, sys
+src_path = os.path.abspath(os.path.join('..'))
+sys.path.append(src_path)
+from src.PrefixBeamSearch import CtcDecoder
+from src.Editdistance import edit_distance
 
 
 if __name__ == "__main__":
-    decoder_lm = PrefixBeamSearch.CtcDecoder()
+    decoder_lm = CtcDecoder()
 
     consult_dict = {}
     with open("../data/list.txt", 'r') as f:
@@ -23,7 +25,6 @@ if __name__ == "__main__":
     lm_predcision_e = 0
     for root, dirnames, files in os.walk("../data/nps"):
         for name in files:
-    # for relative_dir in os.listdir("../data/nps"):
             path = os.path.join(root, name)
             print(path)
             data = np.load(path)

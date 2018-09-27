@@ -6,7 +6,7 @@ def nps2txt(path):
     name = path.split(r"/")[-1].split(".")[-2]
     name += ".txt"
     print(name)
-    f = open(os.path.join("/home/augustus/Documents/decoder/decoder-cpp/data/nps", name), "w")
+    f = open(os.path.join("../../decoder-cpp/data/nps", name), "w")
     data = np.load(path)
     print(data.shape)
     for i in range(data.shape[0]):
@@ -20,6 +20,6 @@ def nps2txt(path):
 
 
 if __name__ == "__main__":
-    for name in os.listdir("/home/augustus/Documents/decoder/decoder-python/data/nps"):
-        full_path = os.path.join("/home/augustus/Documents/decoder/decoder-python/data/nps", name)
+    for name in os.listdir("../..//decoder-python/data/nps"):
+        full_path = os.path.join("../../decoder-python/data/nps", name)
         nps2txt(full_path)

@@ -1,9 +1,11 @@
 import numpy as np
-import sys
-sys.path.append('../beamsearch')
-from PrefixBeamSearch_2 import CtcDecoder
-import os
-from Editdistance import edit_distance
+import sys,  os
+# decoder_path = os.path.abspath(os.path.join('...'))
+# sys.path.append(decoder_path)
+src_path = os.path.abspath(os.path.join('..'))
+sys.path.append(src_path)
+from src.PrefixBeamSearch_2 import CtcDecoder
+from src.Editdistance import edit_distance
 
 
 if __name__ == "__main__":
@@ -37,19 +39,20 @@ if __name__ == "__main__":
                 lm_correctness += 1
             if result_greedy == result_truth:
                 greedy_correctness += 1
-            print("lm:"+result_lm)
-            print("greedy:"+result_greedy)
-            print("truth:"+result_truth)
-            lm_pre = 1-float(edit_distance(result_lm, result_truth))/len(result_truth)
-            lm_predcision_e += lm_pre
-            greedy_pre = 1-float(edit_distance(result_greedy, result_truth))/len(result_truth)
-            greedy_precision_e += greedy_pre
-            print("Examples already tested:"+str(total_number))
-            print("lm raw precision:" + str(float(lm_correctness)/total_number))
-            print("greeedy raw precision:" + str(float(greedy_correctness)/total_number))
-            print("lm edit precision:" + str(lm_predcision_e/total_number))
-            print("greedy edit precision:" + str(greedy_precision_e/total_number))
+            # print("lm:"+result_lm)
+            # print("greedy:"+result_greedy)
+            print("CTC model encoder matrix shape({}, {})".format(data.shape[0], data.shape[1]))
+            print("Decoder output: {}".format(result_truth))
+            # lm_pre = 1-float(edit_distance(result_lm, result_truth))/len(result_truth)
+            # lm_predcision_e += lm_pre
+            # greedy_pre = 1-float(edit_distance(result_greedy, result_truth))/len(result_truth)
+            # greedy_precision_e += greedy_pre
+            # print("Examples already tested:"+str(total_number))
+            # print("lm raw precision:" + str(float(lm_correctness)/total_number))
+            # print("greeedy raw precision:" + str(float(greedy_correctness)/total_number))
+            # print("lm edit precision:" + str(lm_predcision_e/total_number))
+            # print("greedy edit precision:" + str(greedy_precision_e/total_number))
 
-    print("Greedy precision:"+str(greedy_correctness/total_number))
-    print("LM precision:"+str(lm_correctness/total_number))
-    print("================")
+    # print("Greedy precision:"+str(greedy_correctness/total_number))
+    # print("LM precision:"+str(lm_correctness/total_number))
+    # print("================")

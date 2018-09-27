@@ -1,7 +1,9 @@
 import numpy as np
-from src import PrefixBeamSearch
-import os
-from Editdistance import edit_distance
+import os, sys
+src_path = os.path.abspath(os.path.join('..'))
+sys.path.append(src_path)
+from src.PrefixBeamSearch import CtcDecoder
+from src.Editdistance import edit_distance
 from multiprocessing import Pool
 from multiprocessing.dummy import Pool as ThreadPool
 
@@ -19,7 +21,7 @@ if __name__ == "__main__":
     paths = [os.path.join("../data/nps", relative_path) for relative_path in os.listdir("../data/nps")]
 
     def decoder_wrapper(path):
-        decoder_lm = PrefixBeamSearch.CtcDecoder()
+        decoder_lm = CtcDecoder()
         name = path.split("/")[-1]
         print("Decoding {}".format(name))
         data = np.load(path)

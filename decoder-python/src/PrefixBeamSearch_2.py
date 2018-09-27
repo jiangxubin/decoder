@@ -194,6 +194,7 @@ class CtcDecoder:
         return res_set
 
 
+
 def testBeamSearch():
     "test decoder"
     mat= np.load(r"/home/augustus/Documents/CTC-Decoder/data/nps/603.npy")

@@ -88,5 +88,5 @@ add_subdirectory(src)
 
 #add_executable(main main_me.cpp)
 #add_executable(main main.cpp)
-add_executable(main main_single.cpp)
+add_executable(main main_multi_threads.cpp)
 target_link_libraries(main src_lib)
