@@ -39,10 +39,10 @@ if __name__ == "__main__":
                 lm_correctness += 1
             if result_greedy == result_truth:
                 greedy_correctness += 1
-            # print("lm:"+result_lm)
-            # print("greedy:"+result_greedy)
             print("CTC model encoder matrix shape({}, {})".format(data.shape[0], data.shape[1]))
-            print("Decoder output: {}".format(result_truth))
+            print("Greedy Decoder output: {}".format(result_greedy))
+            # print("LM Decoder ouput: {}".format(result_lm))
+            print("LM Decoder output: {}".format(result_truth))
             # lm_pre = 1-float(edit_distance(result_lm, result_truth))/len(result_truth)
             # lm_predcision_e += lm_pre
             # greedy_pre = 1-float(edit_distance(result_greedy, result_truth))/len(result_truth)

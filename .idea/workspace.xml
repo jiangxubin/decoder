@@ -19,12 +19,12 @@
       <config projectName="kenlm" targetName="NightlyTest" />
       <config projectName="kenlm" targetName="NightlySubmit" />
       <config projectName="kenlm" targetName="ContinuousSubmit" />
+      <config projectName="kenlm" targetName="model_test" />
       <config projectName="kenlm" targetName="NightlyMemoryCheck" />
       <config projectName="kenlm" targetName="main" />
       <config projectName="kenlm" targetName="Experimental" />
       <config projectName="kenlm" targetName="adjust_counts_test" />
       <config projectName="kenlm" targetName="tokenize_piece_test" />
-      <config projectName="kenlm" targetName="ExperimentalTest" />
       <config projectName="kenlm" targetName="bit_packing_test" />
       <config projectName="kenlm" targetName="sort_test" />
       <config projectName="kenlm" targetName="sorted_uniform_test" />
@@ -43,7 +43,7 @@
       <config projectName="kenlm" targetName="sized_iterator_test" />
       <config projectName="kenlm" targetName="NightlyBuild" />
       <config projectName="kenlm" targetName="multi_intersection_test" />
-      <config projectName="kenlm" targetName="model_test" />
+      <config projectName="kenlm" targetName="ExperimentalTest" />
       <config projectName="kenlm" targetName="fragment" />
       <config projectName="kenlm" targetName="read_compressed_test" />
       <config projectName="kenlm" targetName="ContinuousBuild" />
@@ -78,10 +78,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cc46ed3-f36b-4272-a316-2073d1ef01cd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decoder-python/test/main_beam_beam.py" beforeDir="false" afterPath="$PROJECT_DIR$/decoder-python/test/main_beam_beam.py" afterDir="false" />
-    </list>
+    <list default="true" id="6cc46ed3-f36b-4272-a316-2073d1ef01cd" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +89,7 @@
     <SUITE FILE_PATH="coverage/kenlm$main_single.coverage" NAME="main_single Coverage Results" MODIFIED="1536889249290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decoder-python/test" />
     <SUITE FILE_PATH="coverage/decoder_cpp$merge_corpus_bp.coverage" NAME="merge_corpus_bp Coverage Results" MODIFIED="1536647900974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decoder-python/src" />
     <SUITE FILE_PATH="coverage/decoder_cpp$main_beam_beam.coverage" NAME="main_beam_beam Coverage Results" MODIFIED="1536651555705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decoder-python/test" />
-    <SUITE FILE_PATH="coverage/kenlm$fake_tensor.coverage" NAME="fake_tensor Coverage Results" MODIFIED="1537858644358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decoder-python/src" />
+    <SUITE FILE_PATH="coverage/kenlm$fake_tensor.coverage" NAME="fake_tensor Coverage Results" MODIFIED="1539155761870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decoder-python/src" />
     <SUITE FILE_PATH="coverage/kenlm$pytest_in_PrefixBeamSearch_py.coverage" NAME="pytest in PrefixBeamSearch.py Coverage Results" MODIFIED="1537170327510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decoder-python/src" />
     <SUITE FILE_PATH="coverage/decoder_cpp$main_single.coverage" NAME="main_single Coverage Results" MODIFIED="1536655691703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decoder-python/test" />
     <SUITE FILE_PATH="coverage/kenlm$slice_nps.coverage" NAME="slice_nps Coverage Results" MODIFIED="1536828881615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decoder-python/src" />
@@ -100,7 +97,7 @@
     <SUITE FILE_PATH="coverage/decoder_cpp$list_path_4_c__.coverage" NAME="list_path_4_c++ Coverage Results" MODIFIED="1536632867421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decoder-python/src" />
     <SUITE FILE_PATH="coverage/kenlm$intermediate.coverage" NAME="intermediate Coverage Results" MODIFIED="1536312512400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decoder-python/src" />
     <SUITE FILE_PATH="coverage/kenlm$main_multi_threading.coverage" NAME="main_multi_threading Coverage Results" MODIFIED="1538028657706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decoder-python/test" />
-    <SUITE FILE_PATH="coverage/kenlm$main_beam_beam.coverage" NAME="main_beam_beam Coverage Results" MODIFIED="1538029032387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decoder-python/test" />
+    <SUITE FILE_PATH="coverage/kenlm$main_beam_beam.coverage" NAME="main_beam_beam Coverage Results" MODIFIED="1538100008078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decoder-python/test" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="755672836">
@@ -137,16 +134,17 @@
     <session id="1142244705">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="39" />
+          <entry key="project.closed" value="43" />
           <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.4" value="8" />
           <entry key="project.open.time.5" value="9" />
-          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.7" value="3" />
-          <entry key="project.opened" value="32" />
+          <entry key="project.opened" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -158,38 +156,40 @@
           <entry key="LICENSE" value="1" />
           <entry key="cc" value="1" />
           <entry key="cmake" value="3" />
-          <entry key="cpp" value="73" />
+          <entry key="cpp" value="84" />
           <entry key="gitignore" value="3" />
-          <entry key="h" value="44" />
+          <entry key="h" value="49" />
           <entry key="hh" value="44" />
           <entry key="in" value="1" />
           <entry key="log" value="1" />
+          <entry key="markdown" value="3" />
           <entry key="md" value="2" />
           <entry key="npy" value="1" />
-          <entry key="py" value="82" />
+          <entry key="py" value="93" />
           <entry key="sh" value="1" />
           <entry key="text" value="12" />
-          <entry key="txt" value="132" />
+          <entry key="txt" value="141" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CMakeLists.txt" value="99" />
-          <entry key="Markdown" value="2" />
-          <entry key="ObjectiveC" value="162" />
-          <entry key="PLAIN_TEXT" value="60" />
-          <entry key="Python" value="82" />
+          <entry key="CMakeLists.txt" value="102" />
+          <entry key="Markdown" value="5" />
+          <entry key="ObjectiveC" value="178" />
+          <entry key="PLAIN_TEXT" value="66" />
+          <entry key="Python" value="93" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="247" />
-          <entry key="cpp" value="9627" />
+          <entry key="cpp" value="9964" />
           <entry key="dummy" value="9" />
-          <entry key="h" value="1047" />
+          <entry key="h" value="3349" />
           <entry key="hh" value="86" />
           <entry key="main_single" value="58" />
-          <entry key="py" value="6648" />
+          <entry key="markdown" value="2014" />
+          <entry key="py" value="6865" />
           <entry key="slice_nps" value="272" />
           <entry key="txt" value="2417" />
         </counts>
@@ -197,9 +197,11 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="2417" />
-          <entry key="ObjectiveC" value="10760" />
+          <entry key="Doxygen file" value="11" />
+          <entry key="Markdown" value="2014" />
+          <entry key="ObjectiveC" value="13388" />
           <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Python" value="7225" />
+          <entry key="Python" value="7442" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.cidr.testingFrameworks.usages" />
@@ -208,7 +210,20 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Introduction.markdown">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SECOND">
+              <first_editor relative-caret-position="450">
+                <caret line="111" column="54" selection-start-line="111" selection-start-column="54" selection-end-line="111" selection-end-column="54" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -257,8 +272,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/decoder-cpp/kenlm/lm/model.hh" />
-        <option value="$PROJECT_DIR$/decoder-cpp/kenlm/lm/bhiksha.hh" />
         <option value="$PROJECT_DIR$/decoder-cpp/kenlm/lm/trie.hh" />
         <option value="$PROJECT_DIR$/decoder-cpp/kenlm/lm/binary_format.hh" />
         <option value="$PROJECT_DIR$/decoder-cpp/kenlm/lm/config.hh" />
@@ -302,12 +315,14 @@
         <option value="$PROJECT_DIR$/decoder-cpp/main_single.cpp" />
         <option value="$PROJECT_DIR$/decoder-python/test/main_single.py" />
         <option value="$PROJECT_DIR$/decoder-python/src/PrefixBeamSearch.py" />
-        <option value="$PROJECT_DIR$/decoder-cpp/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/decoder-python/test/main_beam_beam.py" />
         <option value="$PROJECT_DIR$/decoder-python/src/fake_tensor.py" />
         <option value="$PROJECT_DIR$/decoder-cpp/main_multi_threads.cpp" />
-        <option value="$PROJECT_DIR$/decoder-cpp/include/BeamSearch.h" />
         <option value="$PROJECT_DIR$/decoder-cpp/src/BeamSearch.cpp" />
-        <option value="$PROJECT_DIR$/decoder-python/test/main_beam_beam.py" />
+        <option value="$PROJECT_DIR$/decoder-cpp/include/BeamSearch.h" />
+        <option value="$PROJECT_DIR$/decoder-cpp/include/EditDistance.h" />
+        <option value="$PROJECT_DIR$/decoder-cpp/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Introduction.markdown" />
       </list>
     </option>
   </component>
@@ -319,10 +334,10 @@
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="166" />
-    <option name="y" value="152" />
-    <option name="width" value="1345" />
-    <option name="height" value="874" />
+    <option name="x" value="113" />
+    <option name="y" value="110" />
+    <option name="width" value="1767" />
+    <option name="height" value="811" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -340,23 +355,6 @@
               <item name="kenlm" type="b2602c69:ProjectViewProjectNode" />
               <item name="decoder" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="kenlm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="decoder" type="462c0819:PsiDirectoryNode" />
-              <item name="decoder-python" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kenlm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="decoder" type="462c0819:PsiDirectoryNode" />
-              <item name="decoder-python" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kenlm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="decoder" type="462c0819:PsiDirectoryNode" />
-              <item name="decoder-python" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -365,25 +363,25 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../NLP" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/decoder-cpp/test" />
+      <recent name="$PROJECT_DIR$/decoder-cpp" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/decoder-cpp/include" />
+      <recent name="$PROJECT_DIR$/decoder-cpp/src" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/decoder-python/test" />
       <recent name="$PROJECT_DIR$/decoder-cpp" />
       <recent name="$PROJECT_DIR$/decoder-python/src" />
       <recent name="$PROJECT_DIR$/decoder-cpp/data" />
       <recent name="$PROJECT_DIR$/decoder-cpp/kenlm/lm" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/decoder-cpp" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/decoder-cpp/include" />
-      <recent name="$PROJECT_DIR$/decoder-cpp/src" />
-      <recent name="$PROJECT_DIR$/decoder-cpp/test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -398,7 +396,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main_beam_beam">
+  <component name="RunManager" selected="Python.fake_tensor">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -914,9 +912,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.fake_tensor" />
         <item itemvalue="Python.main_beam_beam" />
         <item itemvalue="Python.main_multi_threading" />
-        <item itemvalue="Python.fake_tensor" />
         <item itemvalue="Python.main_single" />
         <item itemvalue="Python tests.pytest in PrefixBeamSearch.py" />
       </list>
@@ -950,6 +948,8 @@
       <workItem from="1537494439175" duration="13848000" />
       <workItem from="1537858849477" duration="8907000" />
       <workItem from="1538031793743" duration="11000" />
+      <workItem from="1539134962349" duration="13002000" />
+      <workItem from="1539221670479" duration="11798000" />
     </task>
     <servers />
   </component>
@@ -962,7 +962,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144960000" />
+    <option name="totallyTimeSpent" value="169760000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -974,14 +974,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="166" y="152" width="1345" height="874" extended-state="0" />
+    <frame x="113" y="110" width="1767" height="811" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30408007" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28878558" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32401526" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49910232" weight="0.32258064" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49910232" weight="0.2054054" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.459846" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -993,7 +994,7 @@
       <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49970078" weight="0.3151207" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.36093944" />
-      <window_info anchor="bottom" id="CMake" order="14" weight="0.31300345" />
+      <window_info active="true" anchor="bottom" id="CMake" order="14" visible="true" weight="0.17296511" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1033,44 +1034,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/decoder-cpp/data/38.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decoder-cpp/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decoder-python/src/list_path_4_c++.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decoder-cpp/data/data_path.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decoder-python/data/SinaWeibo_single.txt" />
-    <entry file="file://$PROJECT_DIR$/decoder-python/data/char_train.txt">
-      <provider selected="true" editor-type-id="LargeFileEditor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decoder-python/src/characterize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decoder-python/src/merge_corpus.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/decoder-python/src/merge_corpus_bp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1113,9 +1076,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/decoder-python/test/main_e2e_error.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/decoder-cpp/data/nps_test/38.txt" />
     <entry file="file://$PROJECT_DIR$/decoder-cpp/data/nps_test_single/40.text">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1128,20 +1088,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="42" column="45" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decoder-cpp/src/Intermediate.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decoder-cpp/include/Intermediate.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -1165,13 +1111,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/decoder-cpp/data/nps_test_single/1174.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decoder-python/src/PrefixBeamSearch_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2205">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/decoder-cpp/data/ocr_char_set.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -1200,82 +1139,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/decoder-cpp/main_me.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="758">
-          <caret line="57" lean-forward="true" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decoder-cpp/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="90" column="43" selection-start-line="90" selection-start-column="43" selection-end-line="90" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decoder-python/src/intermediate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decoder-cpp/data/multi_thread_test_data/index.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/decoder-cpp/data/multi_thread_test_data/value.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decoder-python/src/fake_tensor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="678">
-          <caret line="58" column="57" selection-start-line="58" selection-start-column="57" selection-end-line="58" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decoder-python/src/slice_nps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decoder-cpp/main_multi_threads.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decoder-cpp/src/BeamSearch.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-450">
-          <caret line="338" column="34" selection-start-line="338" selection-start-column="34" selection-end-line="338" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decoder-cpp/include/BeamSearch.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
-          <folding>
-            <element signature="e#118#132#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/decoder-python/test/main_multi_threading.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-158">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decoder-python/test/main_beam_beam.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1286,10 +1156,151 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/decoder-cpp/main_single.cpp">
+    <entry file="file://$PROJECT_DIR$/decoder-python/test/main_beam_beam.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-269">
+        <state relative-caret-position="438">
+          <caret line="35" column="63" selection-start-line="35" selection-start-column="63" selection-end-line="35" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder-python/src/slice_nps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder-python/src/list_path_4_c++.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder-python/src/intermediate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder-python/src/IndexToString.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder-python/test/main_e2e_error.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/data/multi_thread_test_data/index.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/data/multi_thread_test_data/length.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/include/EditDistance.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/include/Intermediate.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/src/Intermediate.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder-python/src/fake_tensor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder-python/src/LM.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder-python/src/PrefixBeamSearch_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1350">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/include/LCS.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="90" selection-start-line="90" selection-end-line="90" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/src/BeamSearch.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="95" column="66" lean-forward="true" selection-start-line="77" selection-start-column="8" selection-end-line="95" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/test/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/test/main_me.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/test/main_multi_threads.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="74" column="104" selection-start-line="74" selection-start-column="104" selection-end-line="74" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/test/main_single.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-210">
           <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder-cpp/include/BeamSearch.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225">
+          <caret line="56" column="4" lean-forward="true" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="82" />
+          <folding>
+            <element signature="e#118#132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Introduction.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="450">
+            <caret line="111" column="54" selection-start-line="111" selection-start-column="54" selection-end-line="111" selection-end-column="54" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

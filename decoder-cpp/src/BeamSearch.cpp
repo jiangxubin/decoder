@@ -348,7 +348,7 @@ vector<string>BeamSearch::beam_search_decoder(float *prob, int *index, int T, in
 }
 
 
-void BeamSearch::beam_search_decoder_m(vector<float> prob, vector<int> index, int T, int K, int A, int beam_width, int blank_index, float default_blank_prob, string &result){
+void BeamSearch::beam_search_decoder_m(vector<float> prob, vector<int> index, int T, int K, int A, int beam_width, int blank_index, float default_blank_prob){
     int time_step = T;
     int blank_idx = blank_index;
 
@@ -458,7 +458,7 @@ void BeamSearch::beam_search_decoder_m(vector<float> prob, vector<int> index, in
     for(auto loc:best_labels){
         best_result += this->dict_map[loc];
     }
-    result = best_result;
+    cout << best_result << endl;
 }
 
 
@@ -466,11 +466,11 @@ vector<string>BeamSearch::multi_threading_decoder(float *prob, int *index, int *
     vector<string> result(N);
     vector<thread> threads(N);
     for(int i=0; i<N; i++){
-        vector<float> single_prob(prob+i*T*K, prob+(i+1)*T*K);
-        vector<int> single_index(index+i*T*K, index+(i+1)*T*K);
+        vector<float> single_prob(prob+i*T*K, prob+(i+1)*seq_len[i]*K);
+        vector<int> single_index(index+i*T*K, index+(i+1)*seq_len[i]*K);
         int time_steps = seq_len[i];
 //        threads[i]=thread{&BeamSearch::beam_search_decoder_m, this, single_prob, single_index, time_steps, K, A, beam_width, blank_index, default_blank_prob, result[i]};
-        threads[i]=thread{&BeamSearch::beam_search_decoder_m, this, single_prob, single_index, time_steps, K, A, beam_width, blank_index, default_blank_prob, result[i]};
+        threads[i]=thread{&BeamSearch::beam_search_decoder_m, this, single_prob, single_index, time_steps, K, A, beam_width, blank_index, default_blank_prob};
         threads[i].join();
     }
     return result;

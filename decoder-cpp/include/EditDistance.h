@@ -8,10 +8,13 @@
 
 using namespace std;
 
+
+/// Class which provides a interface of calculating the edit distance between two strings.
 class EditDistance {
 public:
     EditDistance();
     ~EditDistance();
+    /// Main function of calculating edit distance
     int edit_distance(string &left, string &right);
 };
 

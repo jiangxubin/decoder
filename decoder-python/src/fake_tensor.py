@@ -2,15 +2,14 @@ import numpy as np
 import os
 
 
-def fake_tensor(file_list: list, batch_size=4, candidate_size=500):
+def fake_tensor(file_list: list, candidate_size=500):
     """
-    Now that I have no batch tensor,write this function to merge several nps into a tensor manually.
+    Now that I have no batch tensor,write this function to merge several nps into a tensor manually for use of multi threads decoder test.
     :param batch_size: number of training examples in a batch which equals to the first element of tensor's shape.
     :param file_list: list of file paths which will be used to merge.
-    :param candidate_size: Number of candidates to be filtered of highest probability.
+    :param candidate_size: Number of highest probability candidates to be filtered out of all possibilities.
     :return: list which stores the time-step of each example in a batch
     """
-    # assert (len(file_list)%batch_size) == 0, "number of a examples in a batch can't be divided by batch size"
     max_time_step = 0
     index_set = list()
     flattened_index_set = list()
@@ -52,14 +51,16 @@ def fake_tensor(file_list: list, batch_size=4, candidate_size=500):
     single_value = np.concatenate(flattend_value_set, axis=1)
     np.savetxt(r"/home/augustus/Documents/decoder/decoder-cpp/data/multi_thread_test_data/index.txt", single_index, delimiter=' ')
     np.savetxt(r"/home/augustus/Documents/decoder/decoder-cpp/data/multi_thread_test_data/value.txt", single_value, delimiter=' ')
-    return time_steps
+    time_steps = np.array(time_steps).reshape((1, -1))
+    np.savetxt(r"/home/augustus/Documents/decoder/decoder-cpp/data/multi_thread_test_data/length.txt", time_steps, delimiter=' ')
+
 
 
 if __name__ == "__main__":
     test_list = [r"/home/augustus/Documents/decoder/decoder-python/data/nps/38.npy", r"/home/augustus/Documents/decoder/decoder-python/data/nps/40.npy",
                  r"/home/augustus/Documents/decoder/decoder-python/data/nps/49.npy", r"/home/augustus/Documents/decoder/decoder-python/data/nps/59.npy"
                  ]
-    ts = fake_tensor(test_list)
+    fake_tensor(test_list)
 
 
 
