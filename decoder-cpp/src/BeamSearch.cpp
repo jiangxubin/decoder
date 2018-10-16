@@ -47,7 +47,6 @@ vector<vector<int>> BeamState::sort() {
 }
 
 
-//BeamSearch::BeamSearch(string model_path):model(model_path){
 BeamSearch::BeamSearch(){
     ifstream ifile(map_path);
     string line;
@@ -56,13 +55,13 @@ BeamSearch::BeamSearch(){
     while(getline(ifile, line)){
         stringstream ss(line);
         ss>>index>>character;
-        cout << index << character << endl;
+//        cout << index << character << endl;
         this->dict_map[index] = character;
     }
     this->dict_map[dict_map.rbegin()->first]=string();
 }
 
-void BeamSearch::apply_lm(BeamEntry &parent_beam, BeamEntry &child_beam) {
+void BeamSearch::apply_lm(BeamEntry &parent_beam, BeamEntry &child_beam, int blank_index) {
     float lm_weights = 0.01;
     if(!child_beam.LM){
         string first, second;
@@ -70,11 +69,11 @@ void BeamSearch::apply_lm(BeamEntry &parent_beam, BeamEntry &child_beam) {
             first = this->dict_map[parent_beam.labels.back()];
         }
         else{
-            first = this->dict_map[6865];
+            first = this->dict_map[blank_index];
         }
-        cout << "first " << first << endl;
+//        cout << "first " << first << endl;
         second = this->dict_map[child_beam.labels.back()];
-        cout << "second " << second << endl;
+//        cout << "second " << second << endl;
         string uni_gram;
         uni_gram += first;
         string bi_gram = uni_gram;
@@ -86,14 +85,13 @@ void BeamSearch::apply_lm(BeamEntry &parent_beam, BeamEntry &child_beam) {
         state = model.BeginSentenceState();
         float first_score = 0;
         for (util::TokenIter<util::SingleCharacter, true> it(uni_gram, ' '); it; ++it) {
-//            lm::WordIndex vocab = model.GetVocabulary().Index(*it);
             ret = model.FullScore(state, vocab.Index(*it), out_state);
             first_score += ret.prob;
             state = out_state;
         }
         ret = model.FullScore(state, model.GetVocabulary().EndSentence(), out_state);
         first_score += ret.prob;
-        cout<< "unigram score "<<uni_gram<<" "<<first_score<<endl;
+//        cout<< "unigram score "<<uni_gram<<" "<<first_score<<endl;
 
         State state_1, out_state_1;
         lm::FullScoreReturn ret_1;
@@ -107,7 +105,7 @@ void BeamSearch::apply_lm(BeamEntry &parent_beam, BeamEntry &child_beam) {
         }
         ret_1 = model.FullScore(state_1, model.GetVocabulary().EndSentence(), out_state_1);
         bi_score += ret_1.prob;
-        cout<<"bigram score"<<bi_gram << " "<<bi_score<<endl;
+//        cout<<"bigram score"<<bi_gram << " "<<bi_score<<endl;
 
         float conditional_prob = pow(pow(10, (bi_score-first_score)), lm_weights);
         child_beam.lm_score = parent_beam.lm_score*conditional_prob;
@@ -146,7 +144,7 @@ vector<string> BeamSearch::beam_search_decoder(vector<vector<float>> prob_matrix
     last.entries[labels_str] = BeamEntry();
     last.entries[labels_str].total_score = 1;
     last.entries[labels_str].blank_score = 1;
-    cout << last.entries.size() << endl;
+//    cout << last.entries.size() << endl;
 
     for(int i=0; i< time_step; i++){
         BeamState curr;
@@ -202,7 +200,7 @@ vector<string> BeamSearch::beam_search_decoder(vector<vector<float>> prob_matrix
 //                cout << "extend curr.entries[new_labels_str].no_blank_score " << curr.entries[new_labels_str].no_blank_score <<endl;
                 curr.entries[new_labels_str].total_score += no_blank_score;
 //                cout << "extend curr.entries[new_labels_str].total_score " << curr.entries[new_labels_str].total_score<<endl;
-                this->apply_lm(curr.entries[labels_str], curr.entries[new_labels_str]);
+                this->apply_lm(curr.entries[labels_str], curr.entries[new_labels_str], 6865);
 //                cout << "Extend apply lm "<< endl;
             }
         }
@@ -322,7 +320,7 @@ vector<string>BeamSearch::beam_search_decoder(float *prob, int *index, int T, in
 //                cout << "extend curr.entries[new_labels_str].no_blank_score " << curr.entries[new_labels_str].no_blank_score <<endl;
                 curr.entries[new_labels_str].total_score += no_blank_score;
 //                cout << "extend curr.entries[new_labels_str].total_score " << curr.entries[new_labels_str].total_score<<endl;
-                this->apply_lm(curr.entries[labels_str_1], curr.entries[new_labels_str]);
+                this->apply_lm(curr.entries[labels_str_1], curr.entries[new_labels_str], 6865);
 //                cout << "curr.entries[new_labels_str] " << curr.entries[new_labels_str].lm_score << endl;
 //                cout << "Extend apply lm "<< endl;
             }
@@ -348,7 +346,7 @@ vector<string>BeamSearch::beam_search_decoder(float *prob, int *index, int T, in
 }
 
 
-void BeamSearch::beam_search_decoder_m(vector<float> prob, vector<int> index, int T, int K, int A, int beam_width, int blank_index, float default_blank_prob){
+void BeamSearch::beam_search_decoder_m(vector<float> prob, vector<int> index, int T, int K, int A, int beam_width, int blank_index, float default_blank_prob, string* result){
     int time_step = T;
     int blank_idx = blank_index;
 
@@ -443,7 +441,7 @@ void BeamSearch::beam_search_decoder_m(vector<float> prob, vector<int> index, in
 //                cout << "extend curr.entries[new_labels_str].no_blank_score " << curr.entries[new_labels_str].no_blank_score <<endl;
                 curr.entries[new_labels_str].total_score += no_blank_score;
 //                cout << "extend curr.entries[new_labels_str].total_score " << curr.entries[new_labels_str].total_score<<endl;
-                this->apply_lm(curr.entries[labels_str_1], curr.entries[new_labels_str]);
+                this->apply_lm(curr.entries[labels_str_1], curr.entries[new_labels_str], blank_index);
 //                cout << "curr.entries[new_labels_str] " << curr.entries[new_labels_str].lm_score << endl;
 //                cout << "Extend apply lm "<< endl;
             }
@@ -459,19 +457,22 @@ void BeamSearch::beam_search_decoder_m(vector<float> prob, vector<int> index, in
         best_result += this->dict_map[loc];
     }
     cout << best_result << endl;
+    *result = best_result;
 }
 
 
 vector<string>BeamSearch::multi_threading_decoder(float *prob, int *index, int *seq_len, int N, int T, int K, int A, int beam_width, int blank_index, float default_blank_prob) {
-    vector<string> result(N);
+    vector<string> results(N);
     vector<thread> threads(N);
     for(int i=0; i<N; i++){
-        vector<float> single_prob(prob+i*T*K, prob+(i+1)*seq_len[i]*K);
-        vector<int> single_index(index+i*T*K, index+(i+1)*seq_len[i]*K);
+        vector<float> single_prob(prob+i*T*K, prob+i*T*K+seq_len[i]*K);
+        vector<int> single_index(index+i*T*K, index+i*T*K+seq_len[i]*K);
         int time_steps = seq_len[i];
-//        threads[i]=thread{&BeamSearch::beam_search_decoder_m, this, single_prob, single_index, time_steps, K, A, beam_width, blank_index, default_blank_prob, result[i]};
-        threads[i]=thread{&BeamSearch::beam_search_decoder_m, this, single_prob, single_index, time_steps, K, A, beam_width, blank_index, default_blank_prob};
+//        cout << "Desired length of prob after flatten: " << seq_len[i]*K << endl;
+//        cout << "Actual length of prob and index after flatten" << single_index.size()<<" " << single_prob.size()<<endl;
+        threads[i]=thread{&BeamSearch::beam_search_decoder_m, this, single_prob, single_index, time_steps, K, A, beam_width, blank_index, default_blank_prob, &results[i]};
+        cout << "Thread "<< i << "has completed " << "result "<< i << "is " << results[i] << endl;
         threads[i].join();
     }
-    return result;
+    return results;
 }

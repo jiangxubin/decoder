@@ -62,7 +62,7 @@ public:
 
 
     BeamSearch();
-    void apply_lm(BeamEntry &parent_beam, BeamEntry &child_beam);
+    void apply_lm(BeamEntry &parent_beam, BeamEntry &child_beam, int blank_index);
     void add_beam(BeamState &state, vector<int> labels);
 
     /// An auxiliary function. In C++ it is forbidden to use a set as a map key while
@@ -87,7 +87,7 @@ public:
     /// \param default_blank_prob : Default compensate possibility for "blank" char
     /// \return :A vector which stores possible decode results of an example
     vector<string> beam_search_decoder(float *prob, int *index, int T, int K, int A, int beam_width, int blank_index, float default_blank_prob);
-    void beam_search_decoder_m(vector<float> prob, vector<int> index, int T, int K, int A, int beam_width, int blank_index, float default_blank_prob);
+    void beam_search_decoder_m(vector<float> prob, vector<int> index, int T, int K, int A, int beam_width, int blank_index, float default_blank_prob, string* result);
 
     /// Multi threads decoder wrapper of normal single thread decoder
     /// \param prob: a float pointer which points to a tensor of output soft-max probability

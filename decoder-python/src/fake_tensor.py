@@ -49,18 +49,19 @@ def fake_tensor(file_list: list, candidate_size=500):
 
     single_index = np.concatenate(flattened_index_set, axis=1)
     single_value = np.concatenate(flattend_value_set, axis=1)
-    np.savetxt(r"/home/augustus/Documents/decoder/decoder-cpp/data/multi_thread_test_data/index.txt", single_index, delimiter=' ')
+    np.savetxt(r"/home/augustus/Documents/decoder/decoder-cpp/data/multi_thread_test_data/index.txt", single_index.astype(int), fmt="%i", delimiter=' ')
     np.savetxt(r"/home/augustus/Documents/decoder/decoder-cpp/data/multi_thread_test_data/value.txt", single_value, delimiter=' ')
     time_steps = np.array(time_steps).reshape((1, -1))
-    np.savetxt(r"/home/augustus/Documents/decoder/decoder-cpp/data/multi_thread_test_data/length.txt", time_steps, delimiter=' ')
-
+    np.savetxt(r"/home/augustus/Documents/decoder/decoder-cpp/data/multi_thread_test_data/length.txt", time_steps.astype(int), fmt="%i",  delimiter=' ')
+    return max_time_step
 
 
 if __name__ == "__main__":
     test_list = [r"/home/augustus/Documents/decoder/decoder-python/data/nps/38.npy", r"/home/augustus/Documents/decoder/decoder-python/data/nps/40.npy",
                  r"/home/augustus/Documents/decoder/decoder-python/data/nps/49.npy", r"/home/augustus/Documents/decoder/decoder-python/data/nps/59.npy"
                  ]
-    fake_tensor(test_list)
+    T = fake_tensor(test_list)
+    print("End here")
 
 
 

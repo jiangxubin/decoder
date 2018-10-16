@@ -30,8 +30,8 @@ int main() {
             temp_float.push_back(val);
         }
     }
-    cout << temp_float.size() << endl;
-    float prob[13000];
+//    cout << "Value size: " << temp_float.size() << endl;
+    float prob[246000];
     for(int i=0; i<temp_float.size(); i++){
         prob[i] = temp_float[i];
     }
@@ -48,9 +48,9 @@ int main() {
             temp_index.push_back(idx);
         }
     }
-    cout << temp_index.size()<< endl;
+//    cout <<" Index size:" << temp_index.size()<< endl;
 
-    int index[13000];
+    int index[246000];
     for(int j=0; j<temp_index.size(); j++){
         index[j] = temp_index[j];
     }
@@ -72,7 +72,7 @@ int main() {
     }
     int *length_ptr = length;
 
-    vector<string> res_p = decoder.multi_threading_decoder(prob_ptr, index_ptr, length_ptr, 4, 13000/500, 500, 6866, 2, 6865, (float)1e-5);
+    vector<string> res_p = decoder.multi_threading_decoder(prob_ptr, index_ptr, length_ptr, 4, 123, 500, 6866, 2, 6865, (float)1e-5);
     for(auto iter=res_p.begin(); iter!=res_p.end(); iter++){
         cout<< *iter<< endl;
     }

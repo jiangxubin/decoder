@@ -25,8 +25,8 @@
 ``` bash
 // wget http://zlib.net/zlib-1.2.8.tar.gz 1.2.8版本的地址已无法下载，因此换用最新版本的1.2.11
 wget https://zlib.net/zlib-1.2.11.tar.gz
-tar xzf zlib-1.2.8.tar.gz
-cd zlib-1.2.8
+tar xzf zlib-1.2.11.tar.gz
+cd zlib-1.2.11
 ./configure --prefix=$PREFIX --libdir=$LIBDIR
 make -j4
 make install
@@ -110,7 +110,14 @@ int main() {
 2. 多线程测试用例见decoder-cpp/test/main_multi_threads.cpp
 3. 更换测试用例需要在decoder-cpp/CMakeLists.txt中更新
 add_executable(main test/main_multi_threads.cpp)测试入口代码的路径
-
+4. 编译命令
+```bash
+cd decoder/decoder-cpp/build
+cmake ..
+make
+cd bin
+./main
+```
 
 ## decoder-python:算法原型开发
 整体使用与C++版相同
