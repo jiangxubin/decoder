@@ -15,7 +15,7 @@ using namespace lm::ngram;
 int main() {
     BeamSearch decoder;
     map<string, pair<string, string>> consult_dict;
-    std::ifstream fs("/home/augustus/Documents/decoder/decoder-cpp/data/list.txt");
+    std::ifstream fs("../../data/list.txt");
     string line;
     string name;
     string greedy_result;
@@ -37,7 +37,7 @@ int main() {
 
     }
 
-    ifstream ifs_1("/home/augustus/Documents/decoder/decoder-cpp/data/data_path.txt");
+    ifstream ifs_1("../../data/data_path.txt");
     vector<string> paths;
     string line_1;
     while(getline(ifs_1, line_1)){

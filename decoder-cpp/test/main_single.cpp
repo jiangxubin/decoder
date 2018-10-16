@@ -21,7 +21,7 @@ int main() {
 //    vector<string> res = decoder.beam_search_decoder(prob_matrix, 2);
 //    cout << res[0] << endl;
 
-    ifstream ifs("/home/augustus/Documents/decoder/decoder-cpp/data/nps_test_single/38.text");
+    ifstream ifs("../../data/nps_test_single/38.text");
     string line;
     vector<float> temp_float;
     while(getline(ifs, line)){
@@ -39,7 +39,7 @@ int main() {
     float *prob_ptr = prob;
 
 
-    ifstream ifs_1("/home/augustus/Documents/decoder/decoder-cpp/data/nps_test_single/38.txt");
+    ifstream ifs_1("../../data/nps_test_single/38.txt");
     string line_1;
     vector<int> temp_index;
     while(getline(ifs_1, line_1)){

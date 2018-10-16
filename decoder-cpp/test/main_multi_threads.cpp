@@ -20,7 +20,7 @@ using namespace lm::ngram;
 int main() {
     BeamSearch decoder;
 
-    ifstream ifs("/home/augustus/Documents/decoder/decoder-cpp/data/multi_thread_test_data/value.txt");
+    ifstream ifs("../../data/multi_thread_test_data/value.txt");
     string line;
     vector<float> temp_float;
     while(getline(ifs, line)){
@@ -38,7 +38,7 @@ int main() {
     float *prob_ptr = prob;
 
 
-    ifstream ifs_1("/home/augustus/Documents/decoder/decoder-cpp/data/multi_thread_test_data/index.txt");
+    ifstream ifs_1("../../data/multi_thread_test_data/index.txt");
     string line_1;
     vector<int> temp_index;
     while(getline(ifs_1, line_1)){
@@ -56,7 +56,7 @@ int main() {
     }
     int *index_ptr = index;
 
-    ifstream ifs_2{"/home/augustus/Documents/decoder/decoder-cpp/data/multi_thread_test_data/length.txt"};
+    ifstream ifs_2{"../../data/multi_thread_test_data/length.txt"};
     string line_2;
     vector<int> temp_length;
     while(getline(ifs_2, line_2)){

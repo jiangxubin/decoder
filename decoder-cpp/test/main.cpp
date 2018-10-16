@@ -14,7 +14,7 @@ using namespace lm::ngram;
 int main() {
 
     std::cout<<"Hello world"<<std::endl;
-    char *path = "/home/augustus/Documents/decoder-python/data/mixed2.bin";
+    char *path = "../../decoder-python/data/mixed2.bin";
     Config config;
     config.load_method = util::READ;
 
