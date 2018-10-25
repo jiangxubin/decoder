@@ -86,6 +86,7 @@ model.score('微 信', bos=False, eos=False)
 ```
 
 * C++接口的使用
+  
 ```c++
 #include "lm/model.hh"
 #include <iostream>
